@@ -21,7 +21,7 @@ const Page = () => {
             p={3}  
             mb={6} 
             align="center">
-                Hello, I&apos;m a full-stack developer base in Singapore!
+                Hello, I&apos;m a full-stack developer based in Singapore!
             </Box>
 
             <Box display={{md:'flex'}}>

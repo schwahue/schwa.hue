@@ -1,4 +1,10 @@
 {
+  "../components/layouts/main.js -> ../rhetorician.js": {
+    "id": "./components/rhetorician.js",
+    "files": [
+      "static/chunks/components_rhetorician_js.js"
+    ]
+  },
   "../node_modules/next/dist/client/next-dev.js -> ./dev/noop": {
     "id": "./node_modules/next/dist/client/dev/noop.js",
     "files": [

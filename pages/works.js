@@ -1,8 +1,7 @@
-import { Container, Heading, SimpleGrid, Divider} from "@chakra-ui/react"
+import { Container, Heading, SimpleGrid, Divider, Box} from "@chakra-ui/react"
 import Section from "../components/section"
 import { WorkGridItem } from "../components/grid-item"
-
-import hieuThumbnail from "../public/images/Hieu.jpg"
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 
 const Works = () => {
     return (
@@ -10,14 +9,10 @@ const Works = () => {
             <Heading as="h3" fontSize={20} mb={4}>
                 Works
             </Heading>
-
-            <SimpleGrid columns={[1,1,2]} gap={6}>
-                <Section>
-                    <WorkGridItem id="wip" title="wip" thumbnail={hieuThumbnail}>
-                    Work in progress    
-                    </WorkGridItem>
-                </Section>
-            </SimpleGrid>
+            
+            <Box align="center" >
+                Under construction
+            </Box>
         </Container>
     )
 }
