@@ -52,9 +52,7 @@ const Page = () => {
                 Work
             </Heading>
             <Paragraph>Hieu is a student at {' '}
-                <NextLink href="https://www.nyp.edu.sg">
-                    <Link>Nanyang Polytechnic</Link>
-                </NextLink>
+                    <Link href="https://nyp.edu.sg" target="_blank" >Nanyang Polytechnic</Link>
             </Paragraph>
         <Box align="center" my={4}>
             <NextLink href="/works">

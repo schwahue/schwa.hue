@@ -22,7 +22,7 @@ img {
 `
 
 const Logo = () => {
-    const ensoImg = `/public/images/Enso${useColorModeValue('-light','-dark')}.png`
+    const ensoImg = `/images/Enso${useColorModeValue('-light','-dark')}.png`
 
     return (
         <Link href="/">
