@@ -12,13 +12,17 @@ height: 30px;
 line-height: 20px;
 padding: 10px;
 
+img {
+    transition: 200ms ease;
+  }
+
 &:hover img{
     transform: rotate(20deg);
 }
 `
 
 const Logo = () => {
-    const ensoImg = `/../public/images/Enso${useColorModeValue('-light','-dark')}.png`
+    const ensoImg = `/public/images/Enso${useColorModeValue('-light','-dark')}.png`
 
     return (
         <Link href="/">
