@@ -102,7 +102,14 @@ const Page = () => {
                     @schwahue
                 </Button>
                 </Link>
-            </ListItem>       
+            </ListItem>
+            <ListItem>
+                <Link href="https://www.instagram.com/schwa.hue/" target="_blank">
+                <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoInstagram} />}>
+                    @schwahue
+                </Button>
+                </Link>
+            </ListItem>           
         </List>     
         </Section>
         </Container>
