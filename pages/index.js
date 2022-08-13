@@ -71,7 +71,7 @@ const Page = () => {
             </BioSection>
             <BioSection>
                 <BioYear>2022</BioYear>
-                Completed the Diploma in Information & Technologies in the School of Inforamtion & and Technolgies at Nanyang Polytechnic.
+                Completed the Diploma in Information & Technologies in the School of Inforamtion & Technolgies at Nanyang Polytechnic.
             </BioSection>
         </Section>
 
