@@ -51,8 +51,9 @@ const Page = () => {
             <Heading as="h3" variant="section-title">
                 Work
             </Heading>
-            <Paragraph>Hieu has graduated from {' '} with a diploma in Information Technology
-                    <Link href="https://nyp.edu.sg" target="_blank" >Nanyang Polytechnic</Link>
+            <Paragraph>Hieu has graduated from {' '} 
+                    <Link href="https://nyp.edu.sg" target="_blank" >Nanyang Polytechnic</Link> 
+                       with a diploma in Information Technology
             </Paragraph>
         <Box align="center" my={4}>
             <NextLink href="/works">
